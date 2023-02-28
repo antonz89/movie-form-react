@@ -18,6 +18,10 @@ function App() {
 
   })
 
+  const handleDelete =(title)=>{
+    setMovies(movies.filter(movie => movie.title !== title))
+  }
+
 
   const handleAddFormChange = (event)=>{
     event.preventDefault();
@@ -66,18 +70,21 @@ function App() {
           <th>Director</th>
           <th>Year</th>
           <th>Date Added</th>
+          <th>Action</th>
         </thead>
        
         <tbody>
           {movies.map((movie,index)=>(
             <tr key={index}>
               <td>{movie.title}</td>
-              <td>{movie.actors}</td>
+              {/* <td>{movie.actors}</td> */}
+              <td>{`${movie.actors} `}</td>
               <td>{movie.plot}</td>
               <td>{movie.imdbRating}</td>
               <td>{movie.director}</td>
               <td>{movie.year}</td>
               <td>{movie.dateAdded}</td>
+              <td><button onClick = {()=>handleDelete(movie.title)}>Delete</button></td>
           </tr>
           ))}
         </tbody>
@@ -142,5 +149,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
