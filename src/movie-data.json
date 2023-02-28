@@ -1,0 +1,33 @@
+ [
+    {
+      "title": "The Godfather",
+      "actors": ["Marlon Brando", "Al Pacino", "James Caan"],
+      "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "genre": "Crime, Drama",
+      "imdbRating": 9.2,
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "dateAdded": "11/02/2022"
+      
+    },
+    {
+        "title": "The Shawshank Redemption",
+        "actors": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+        "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "genre": "Drama",
+        "imdbRating": 9.3,
+        "director": "Frank Darabont",
+        "year": 1994,
+        "dateAdded": "11/02/2022"
+    },
+    {
+        "title": "The Dark Knight",
+        "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+        "plot": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+        "genre": "Action, Crime, Drama",
+        "imdbRating": 9.0,
+        "director": "Christopher Nolan",
+        "year": 2008,
+        "dateAdded": "11/02/2022"
+    }
+  ]
